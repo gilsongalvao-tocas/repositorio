@@ -191,3 +191,35 @@ header .navbar li a:hover{
   text-decoration: underline;
   text-decoration-color: yellow;
 }
+                                            <!-- Testimonials page--> 
+
+.final{
+  background-color: black;
+  padding: 20px;
+  margin-top: 0px;
+  width: 100%;
+}
+.finalcnt p{
+  color:yellow;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.socials a {
+  color: yellow;
+  font-size: 1.3rem;
+  padding: 5px;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.socials a:hover {
+  background: yellow;
+  color: black;
+  transform: translateY(-5px);
+}
