@@ -9,7 +9,7 @@
   
 }
 header{
-    background-color: black;
+    background-color: rgb(23, 22, 22);
     position: fixed;
     top: 0;
     left: 0;
@@ -114,7 +114,7 @@ header .navbar li a:hover{
 }
 .about{
   padding:80px;
-  background-color: black;
+  background-color: rgb(23, 22, 22);
 }
 .about_content{
   display: flex;
@@ -191,10 +191,70 @@ header .navbar li a:hover{
   text-decoration: underline;
   text-decoration-color: yellow;
 }
-                                            <!-- Testimonials page--> 
+.contact{
+  padding: 80px 20px;
+  text-align: center;
+  background-color: rgb(23, 22, 22);
+  color:white;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  justify-content: center;
+  display: flex;
+}
+.contact h2{
+  margin-bottom: 30px;
+}
+.contact form{
+  max-width: 500px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.contact form label{
+  text-align: left;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+}
+.contact form input{
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  background: black;
+  color: white;
+}
+.contact form textarea{
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  background: black;
+  color: white;
+}
+.contact_cnt span{
+  color:yellow;
+}
+.contact_cnt button{
+  color:white;
+  text-decoration: none;
+  border-color: white;
+}
 
+.liquidtwo {
+  background: linear-gradient(white) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.2em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.liquidtwo:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: black;
+}
 .final{
-  background-color: black;
+  background-color: rgb(23, 22, 22);
   padding: 20px;
   margin-top: 0px;
   width: 100%;
